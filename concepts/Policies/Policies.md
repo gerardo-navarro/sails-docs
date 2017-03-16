@@ -78,6 +78,8 @@ Your `config/policies.js` file should export a Javascript object whose keys are 
 }
 ```
 
+> NOTE: In case you have controller in a subfolder (e.g. api/admin/HealthCheckController), you have to use `'admin/HealthCheckController'` instead of simply writing 'HealthCheckController'
+
 ##### To apply a policy to an entire controller:
 
 ```js
